@@ -1,0 +1,11 @@
+name: enviroment
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python>=3.11
+  - numpy>=1.26
+  - scipy>=1.13
+  - matplotlib>=3.8
+  - jupyterlab>=4.2
+  
