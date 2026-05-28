@@ -8,4 +8,7 @@ dependencies:
   - scipy>=1.13
   - matplotlib>=3.8
   - jupyterlab>=4.2
-  
+  - pytorch>=2.0
+  - pip
+  - pip:
+      - torchdiffeq>=0.2.4
