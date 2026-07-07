@@ -1,0 +1,43 @@
+# nElem nNode   Tarea 2
+    1     2
+# n     A [m^2]     E [Pa]   I[m^4]     ni      nj
+  1     1.0e-4      207.0e9  8.33e-4    1       2
+# Select solution case 0: Displacement, 1: Force
+0
+# n    x    y    Fx [N]     Fy [N]     C [Nm]
+  1   0.0  0.0    0.0        0.0       0.0
+  2   2.0  0.0    0.0        -1000.0       1000.0
+# Number of nodes with boundary Conditions
+1
+# Node  ux    uy   theta (0: empotrado 1: libre de moverse)
+  1      0     0    0
+# Maximum strains
+0.01
+
+
+
+# nElem nNode   Tarea 2
+    7     5
+# n     A [m^2]     E [Pa]   I[m^4]     ni      nj
+  1     0.628e-4    71.0e9  0.082e-8       1       3
+  2     0.628e-4    71.0e9  0.082e-8       3       2
+  3     0.628e-4    71.0e9  0.082e-8       1       4
+  4     0.628e-4    71.0e9  0.082e-8       3       4
+  5     0.628e-4    71.0e9  0.082e-8       3       5
+  6     0.628e-4    71.0e9  0.082e-8       2       5
+  7     0.628e-4    71.0e9  0.082e-8       4       5
+# Select solution case 0: Displacement, 1: Force
+0
+# n    x    y    Fx [N]     Fy [N]     C [Nm]
+  1   0.0  0.0    0.0       -5.0e2    -0.0e2
+  2   2.0  0.0    0.0       -5.0e2     0.0e2
+  3   1.0  0.0    0.0      -10.0e4     0.0
+  4   0.5  0.5    0.0        0.0       0.0
+  5   1.5  0.5    0.0        0.0       0.0
+# Number of nodes with boundary Conditions
+2
+# Node  ux    uy   theta (0: empotrado 1: libre de moverse)
+  4      0     0    1
+  5      0     0    1
+# Maximum strains
+0.01
